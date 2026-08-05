@@ -29,7 +29,7 @@
     "contains_non_public_inventory": true,
     "digest": "sha256:6525aa0f8942e761349eb8d45cfc67b23f5aba32b6871bbafd2d0a2a2dac979d",
     "path": "owners/voxletra.json",
-    "repository": "ORESoftware/project-registry"
+    "repository": "approved-private-registry"
   },
   "relationships": [],
   "repositories": [
