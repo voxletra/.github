@@ -1,10 +1,56 @@
 {
+  "$schema": "./repository-relationships.schema.json",
+  "audience": "public",
+  "generated": {
+    "complete_for_visibility": "public",
+    "generated_at": "2026-08-05T21:07:32Z",
+    "generator_version": "2026-08-04.1",
+    "inventory_digest": "sha256:76edf2f470b6f5224ed252764ec59e821af591436f4f5c19b7fee06b21bc3884",
+    "managed_by": "ore-repository-relationship-rollout",
+    "omitted_repository_count": 9,
+    "private_repositories_omitted": true,
+    "source": "GitHub GraphQL repository inventory plus reviewed manual declarations"
+  },
+  "owner": {
+    "account_type": "organization",
+    "dotgithub_repository": "voxletra/.github",
+    "github_id": "308588098",
+    "linear_project": {
+      "id": "d45b6c31-6b98-467b-8440-e3c3480613fb",
+      "name": "github.com/voxletra",
+      "team_id": "eb8ab169-5afe-4b6f-9cab-3f2aa3e887dc",
+      "url": "https://linear.app/denman/project/githubcomvoxletra-5528d72e4a7d",
+      "workspace": "denman"
+    },
+    "login": "voxletra",
+    "mapping_id": "context:voxletra"
+  },
+  "private_registry": {
+    "contains_non_public_inventory": true,
+    "digest": "sha256:6525aa0f8942e761349eb8d45cfc67b23f5aba32b6871bbafd2d0a2a2dac979d",
+    "path": "owners/voxletra.json",
+    "repository": "ORESoftware/project-registry"
+  },
+  "relationships": [],
+  "repositories": [
+    {
+      "archived": false,
+      "default_branch": "main",
+      "fork": false,
+      "full_name": "voxletra/.github",
+      "github_id": "1324048255",
+      "name": ".github",
+      "owner": "voxletra",
+      "roles": [
+        "community-health",
+        "governance",
+        "relationship-registry"
+      ],
+      "source": "github-graphql-api",
+      "url": "https://github.com/voxletra/.github",
+      "visibility": "public"
+    }
+  ],
   "schema_version": 1,
-  "organization": "voxletra",
-  "generated_at": null,
-  "repositories": [],
-  "notes": [
-    "Populate from live GitHub inventory; do not infer unverified dependencies.",
-    "Repository-local manifests remain authoritative for exact dependency versions."
-  ]
+  "unresolved_hints": []
 }
