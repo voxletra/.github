@@ -70,7 +70,7 @@ Shared schemas, clients, route fixtures, sample media, golden files, job-state m
 
 The live Flutter repository records the companion contract in [`COMPANION_DESKTOP.md`](https://github.com/voxletra/vxl-flutter/blob/main/COMPANION_DESKTOP.md), introduced through [PR #4](https://github.com/voxletra/vxl-flutter/pull/4).
 
-Central toolkit assignments: [`rust-desktop-strategies.md`](https://github.com/ORESoftware/project-registry/blob/main/docs/rust-desktop-strategies.md).
+Central toolkit assignments: maintained in the approved private registry; do not publish or link to the private registry's repository path.
 
 ## Project routing
 
