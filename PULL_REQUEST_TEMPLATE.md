@@ -29,6 +29,11 @@ Describe the problem, intended behavior, and why this repository owns the change
 - [ ] Destructive and cross-runtime tests run in the corresponding `*-test` organization or an isolated e2e environment, with teardown evidence.
 - [ ] Zed lifecycle hooks cover the relevant pre-build, pre-test, and pre-publish checks without bypassing local language-native validation.
 
+## Private CI-carrier evidence (if applicable)
+
+- [ ] The source and carrier PR heads, exact Git blob identities, executed job steps, and untested targets are recorded according to [CI-carrier admission](docs/ci-carrier-admission.md).
+- [ ] Carrier-only or noncanonical historical-recovery PRs are explicitly held from production merges.
+
 ## Validation
 
 List formatters, linters, tests, builds, schema/codegen checks, migration validation, security checks, and manual verification performed. Include exact commands and explain any check that could not run.
